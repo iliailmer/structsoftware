@@ -21,7 +21,7 @@ on:
         uses: JamesIves/github-pages-deploy-action@master
         if: success()
         env:
-          GITHUB_TOKEN: {{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: main
           BRANCH: gh-pages
           FOLDER: output
