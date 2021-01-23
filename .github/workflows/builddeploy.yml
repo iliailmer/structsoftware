@@ -19,7 +19,7 @@ jobs:
           pip install -r requirements.txt
       - name: build
         run: |
-          make
+          make publish
       - name: Add nojekyll
         run: |
           touch ./output/.nojekyll
