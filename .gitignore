@@ -141,9 +141,5 @@ dmypy.json
 
 # profiling data
 .prof
-content/
-Makefile
-*.py
-requirements.txt
-runtime.txt
+
 # End of https://www.toptal.com/developers/gitignore/api/python
