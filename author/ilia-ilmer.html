@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Structural Identifiability Software - Ilia Ilmer</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../">Structural Identifiability Software</a></h1>
+                <nav><ul>
+                    <li><a href="../category/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../structural-identifiability-software.html">Structural Identifiability Software</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2021-01-22T11:00:00-05:00">
+                Published: Fri 22 January 2021
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../author/ilia-ilmer.html">Ilia Ilmer</a>
+        </address>
+<p>In <a href="../category/about.html">About</a>.</p>
+
+</footer><!-- /.post-info --><p>A collection of links to software projects related to the question of structural identifiability in dynamical systems.</p>
+<ol>
+<li>
+<p><a href="https://github.com/pogudingleb/SIAN/">Structural Identifiability Analyzer (SIAN)</a>.</p>
+<ul>
+<li>A Maple implementation of the Structural Identifiability Analyzer [1, 2]. This program requires Maple 2020.1 or later for best results. The program allows to determine global and local identifiability properties for parameters in dynamical systems with a fixed probability of correctness. The program takes advantage of Maple's fast Groebner basis computation and can be run in a reasonable time on a personal laptop.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/alexeyovchinnikov/SIAN-Julia">SIAN-Julia</a></p>
+<ul>
+<li>This is the open-source implementation of the SIAN algorithm in Julia. The main advantage is that it requires no paid software to work with, only the free Julia version 1.5.0 and higher. The program takes advantage of GrobnerBasis.jl package (see <a href="https://github.com/ederc/GroebnerBasis.jl">here</a>). For faster computation, we provide the ability to set a positive prime characteristic to speedup Groebner Basis calculation. Note that this may loosen the guarantee of correctness.</li>
+</ul>
+</li>
+<li>
+<p>SIAN Maple.Cloud application (currently in final stages of development)</p>
+<ul>
+<li>This is a free version of the Maple package, it provides access to Maple code without the need to install it. In addition to structural identifiability, the app provides information about identifiable functions of parameters as described in [3]. Access link coming soon.</li>
+</ul>
+</li>
+</ol>
+<h2>References</h2>
+<p>[1] <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.21921">Global Identifiability of Differential Models</a>, Communications on Pure and Applied Mathematics, Volume 73, Issue 9, Pages 1831-1879, 2020.</p>
+<p>[2] <a href="https://doi.org/10.1093/bioinformatics/bty1069">SIAN: software for structural identifiability analysis of ODE models</a> (Bioinformatics, Volume 35, Issue 16, Pages 2873–2874, 2019)</p>
+<p>[3] <a href="https://arxiv.org/abs/2004.07774">Computing all identifiable functions for ODE models</a>, a paper with implementation located <a href="https://github.com/pogudingleb/AllIdentifiableFunctions">here</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
