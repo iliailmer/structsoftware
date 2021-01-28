@@ -15,4 +15,4 @@ A collection of links to software projects related to the question of structural
 2. [SIAN-Julia](https://github.com/alexeyovchinnikov/SIAN-Julia)
     * This is the open-source implementation of the SIAN algorithm in Julia. The main advantage is that it requires no paid software to work with, only the free Julia version 1.5.0 and higher.
 3. SIAN Maple.Cloud application
-    * This is a free version of the Maple packgae, however, it is not open source in a sense that one cannot clone/copy it to edit anything inside the code. It has an accessible UI and documentation.
+    * This is a free version of the Maple package, however, it is not open source in a sense that one cannot clone/copy it to edit anything inside the code. It has an accessible UI and documentation.
