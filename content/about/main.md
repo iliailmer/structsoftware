@@ -11,8 +11,8 @@ A collection of links to software projects related to the question of structural
 2. [SIAN-Julia](https://github.com/alexeyovchinnikov/SIAN-Julia)
     * This is the open-source implementation of the SIAN algorithm in Julia. The main advantage is that it requires no paid software to work with, only the free Julia version 1.5.0 and higher. The program takes advantage of GrobnerBasis.jl package (see [here](https://github.com/ederc/GroebnerBasis.jl)). For faster computation, we provide the ability to set a positive prime characteristic to speedup Groebner Basis calculation. Note that this may loosen the guarantee of correctness.
 
-3. SIAN Maple.Cloud application (currently in final stages of development)
-    * This is a free version of the Maple package, it provides access to Maple code without the need to install it. In addition to structural identifiability, the app provides information about identifiable functions of parameters as described in [3]. Access link coming soon.
+3. [Structural Identifiability Toolbox](https://maple.cloud/app/6509768948056064/Structural+Identifiability+Toolbox)
+    * This is a free version of the Maple package, it provides access to Maple code without the need to install it. In addition to structural identifiability, the app provides information about identifiable functions of parameters as described in [3].
 
 ## References
 
